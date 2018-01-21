@@ -1,0 +1,45 @@
+﻿/*body {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+}*/
+body{
+   background-image: url('../Images/sky.jpg');
+}
+
+.box-shadow {
+	-webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+	-moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+	box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.52)
+}
+
+.padding{
+    padding: 80px;
+}
+
+/*.padding{
+    margin: 50px;
+}*/
+
+.login-form{
+    border: none;
+    border-radius: 0px;
+    /*padding: 20px;*/
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+.p-tag{
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    padding-right: 40px;
+}
+
+.text-contain{
+    position: relative;
+    height: 10em;
+}
+
+@media only screen and (max-width: 766px){
+    .ptag{
+        padding-right: 0px;
+    }
+}
